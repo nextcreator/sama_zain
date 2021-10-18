@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>python</title>
+    <style>
+        body{
+            background-image:url(./static/wallpaper.jpg) ;
+           font-size: x-large;
+           font-family: cursive ;
+           text-align: center;
+           color: ivory;
+        }
+         p{
+            color:greenyellow;
+            background-color: darkgreen;
+            /* font-family:cursive;*/
+        }
+        h1{
+            color: turquoise;
+            background-color: rgb(71, 196, 54);
+            font-family: fantasy;
+        }
+        nav{
+           background-color: rgb(37, 163, 64); 
+           color: rgb(105, 201, 50);
+           font-family: fantasy;
+           /*height: 100px;*/
+           /*position: relative;*/
+        }
+        nav > ul{
+            color: rgb(205, 248, 135);
+            list-style-type: none;
+            border: 2px solid rgb(165, 219, 148);
+
+        }
+        nav > ul > li{
+            display: inline;
+            padding: 15px;
+            padding-left: 45px;
+            padding-right: 45px;  
+        }
+        nav > ul > li > a{
+            text-decoration: none;
+            color: rgb(75, 199, 137);
+            font-size: x-large;
+        }
+        nav > ul > li :hover{
+      background-color: grey;
+            color: black;
+
+        }
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+        .btn{
+            background-color:  rgb(37, 163, 64);
+            color:rgb(75, 199, 137) ;
+            font-family:fantasy;
+            padding:10px;                                                                                                          
+        }
+        .btn:hover{
+            background-color: grey;
+            color: black;
+        }
+        .dropdowncontent{
+            display: none;
+            background-color: rgb(37, 163, 64);
+            position: absolute;
+            z-index: 1;
+            min-width: 160px;
+        }
+        .dropdowncontent a {
+          text-decoration: none; 
+          display: block; 
+          padding: 10px;
+          color: floralwhite;
+          font-size: 20px;
+        }
+        .dropdown:hover .dropdowncontent{display: block;}
+        .btn{
+            border: none;
+        }
+        .dropdowncontent a:hover {
+       background-color: #3dadff;
+    }
+
+    </style>
+   </head>
+   <body>
+      <!-- <header>
+        <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./Savebiodiversity.html">Save Biodiversity</a></li>
+            <li><a href="./solarsystem.html">solarsystem</a></li>
+            <li><a href="./Myfaviroitelocation.html">My Faviroite location</a></li>
+            <li><a href="cw1.html">About Himalayas</a></li>
+            <li><a href="python.html">About python</a></li>
+
+        </ul>
+        </nav>
+    </header> --> 
+    <header>
+        <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+
+
+            <div class="dropdown">
+            <button class="btn">Projects</button>
+            <div class="dropdowncontent">
+            <a href="./Myfaviroitelocation.html">My Favourite Location</a>
+            <a href="./solarsystem.html">Planets</a>
+            <a href="./tajmahal.html">Taj Mahal</a>
+            <a href="./Savebiodiversity.html">Save Biodiversity</a>
+            <a href="./python.html">python</a>
+            </div>
+            </div>
+
+
+            <li><a href="./s1.html"></a></li>
+        </ul>
+        </nav>
+    </header>
+<h1>python</h1>
+ <p>Hello. come learn python with me</p>   
+ <br><br>
+ you can subscribe to our channel here <a href="https://www.youtube.com/channel/UCExOrvGGqeCv_7WAUlJ_s9g" target="_blank"> <img src="./static/subscribe.jpg" alt="subscribe" width="250px"></a>
+<br><br>
+ <iframe src="https://youtube.com/embed/TS1NuAk_bso" frameborder="0" width="900" height="500"></iframe>
+</html>

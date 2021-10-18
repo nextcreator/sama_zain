@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Faviroite location</title>
+    <style>
+        body{
+            /*background-color: cornflowerblue;*/
+            background-image: url(./static/travel.jpg);
+           font-size: x-large;
+           text-align: center;
+           margin-left: 100px;
+           margin-right: 100px;
+
+        }
+        h1{
+            color: orange;
+            background-color: orangered;
+            font-family: cursive;
+            border-color: black;
+           border-style: double;
+           border-radius: 200px;
+        }
+        .Oman{
+            color: coral;
+            background-color: rgb(243, 146, 146);
+            font-family: fantasy;
+            border-color: black;
+           border-style: double;
+           border-radius: 200px;
+           border:8px dotted white;
+        }
+        .Karnataka{
+            color: coral;
+            background-color: rgb(250, 162, 162);
+            font-family: fantasy;
+            border-color: black;
+           border-style: double;
+           border-radius: 200px;
+           border:8px dotted white;
+         }
+         /*img{
+            border: 7px dashed white;
+         }*/
+         .img1{
+             border: 7px dashed cornflowerblue;
+         }
+         .img2{
+             border:7px dotted blue;
+         }
+         nav{
+           background-color: lightcoral; 
+           color: orchid;
+           font-family: fantasy;
+           /*height: 100px;*/
+           /*position: relative;*/
+        }
+        nav > ul{
+            color: orchid;
+            list-style-type: none;
+            border: 2px solid hotpink;
+
+        }
+        nav > ul > li{
+            display: inline;
+            padding: 15px;
+            padding-left: 45px;
+            padding-right: 45px;  
+        }
+        nav > ul > li > a{
+            text-decoration: none;
+            color: darkmagenta;
+            font-size: x-large;
+        }
+        nav > ul > li :hover{
+             background-color: grey;
+              color: black;
+
+        }
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+        .btn{
+            background-color:  lightcoral;
+            color:darkmagenta ;
+            font-family:fantasy;
+            padding:10px;                                                                                                          
+        }
+        .btn:hover{
+            background-color: grey;
+            color: black;
+        }
+        .dropdowncontent{
+            display: none;
+            background-color: lightcoral;
+            position: absolute;
+            z-index: 1;
+            min-width: 160px;
+        }
+        .dropdowncontent a {
+          text-decoration: none; 
+          display: block; 
+          padding: 10px;
+          color: floralwhite;
+          font-size: 20px;
+        }
+        .dropdown:hover .dropdowncontent{display: block;}
+        .btn{
+            border: none;
+        }
+        .dropdowncontent a:hover {
+       background-color: #3dadff;
+    }
+ 
+    </style>
+    </style>
+</head>
+<body>
+</head>
+<body>
+    <!-- <header>
+        <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./Savebiodiversity.html">Save Biodiversity</a></li>
+            <li><a href="./solarsystem.html">solarsystem</a></li>
+            <li><a href="./Myfaviroitelocation.html">My Faviroite location</a></li>
+            <li><a href="cw1.html">About Himalayas</a></li>
+            <li><a href="python.html">About python</a></li>
+
+        </ul>
+        </nav>
+    </header> -->
+    <header>
+        <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+
+
+            <div class="dropdown">
+            <button class="btn">Projects</button>
+            <div class="dropdowncontent">
+            <a href="./Myfaviroitelocation.html">My Favourite Location</a>
+            <a href="./solarsystem.html">Planets</a>
+            <a href="./tajmahal.html">Taj Mahal</a>
+            <a href="./Savebiodiversity.html">Save Biodiversity</a>
+            <a href="./python.html">python</a>
+            </div>
+            </div>
+
+
+            <li><a href="./s1.html"></a></li>
+        </ul>
+        </nav>
+    </header>
+    <h1>My Faviroite places</h1>
+    <div class="Oman">
+    <h2>Oman</h2>
+    <p>In 2019, I visited Oman and it was awsome. There were a lot of dams and I stayed with my cousin there.</p>
+    <img class="img1" src="./static/oman.jpg" alt="Oman" width="50%">
+    <p>Learn more about Oman<a href="https://www.omaninfo.om/english"> Click here</a></p>
+    </div>
+
+        <br><br>
+    <div class="Karnataka">
+    <h2>Karnataka</h2>
+    <p>In 2018, I visited Karnataka and it was cool. There were a lot Theme parks to visit.</p>
+    <img class="img2" src="./static/Karnataka.jpg" alt="Karnataka" width="50%">
+    <p><a href="https://www.karnatakatourism.org/"><img class="img2"src="./static/Kar.jpg" alt="Karnataka"></a></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Selecting multiple elements</title>
+   <style>
+     body{
+      /* background-color: indigo;*/
+      background-image: url(./static/hima.jpg);
+     }
+       h1,h2{
+           color: cornflowerblue;
+           background-color: darkblue;
+       }
+       p{
+         color: orchid;
+         background-color: darkmagenta;
+         font-family: fantasy;
+       }
+       nav{
+           background-color: lightcoral; 
+           color: orchid;
+           font-family: fantasy;
+           /*height: 100px;*/
+           /*position: relative;*/
+        }
+        nav > ul{
+            color: orchid;
+            list-style-type: none;
+            border: 2px solid hotpink;
+
+        }
+        nav > ul > li{
+            display: inline;
+            padding: 15px;
+            padding-left: 45px;
+            padding-right: 45px;  
+        }
+        nav > ul > li > a{
+            text-decoration: none;
+            color: darkmagenta;
+            font-size: x-large;
+        }
+        nav > ul > li :hover{
+      background-color: grey;
+            color: black;
+
+        }
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+        .btn{
+            background-color: lightcoral;
+            color: darkmagenta;
+            font-family:'Pacifico', cursive;
+            padding:10px;                                                                                                          
+        }
+        .btn:hover{
+            background-color: grey;
+            color: black;
+        }
+        .dropdowncontent{
+            display: none;
+            background-color:magenta;
+            position: absolute;
+            z-index: 1;
+            min-width: 160px;
+        }
+        .dropdowncontent a {
+          text-decoration: none; 
+          display: block; 
+          padding: 10px;
+          color: floralwhite;
+          font-size: 20px;
+        }
+        .dropdown:hover .dropdowncontent{display: block;}
+        .btn{
+            border: none;
+        }
+        .dropdowncontent a:hover {
+       background-color: #3dadff;
+    }
+
+
+   </style>
+ </head>
+ <body>
+</head>
+<body>
+    <!-- <header>
+        <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./Savebiodiversity.html">Save Biodiversity</a></li>
+            <li><a href="./solarsystem.html">solarsystem</a></li>
+            <li><a href="./Myfaviroitelocation.html">My Faviroite location</a></li>
+            <li><a href="cw1.html">About Himalayas</a></li>
+            <li><a href="python.html">About python</a></li>
+
+        </ul>
+        </nav>
+    </header> -->
+    <header>
+      <nav>
+      <ul>
+          <li><a href="./index.html">Home</a></li>
+
+
+          <div class="dropdown">
+          <button class="btn">Projects</button>
+          <div class="dropdowncontent">
+          <a href="./Myfaviroitelocation.html">My Favourite Location</a>
+          <a href="./solarsystem.html">Planets</a>
+          <a href="./cw1.html">About Himalayas</a>
+          <a href="./Savebiodiversity.html">Save Biodiversity</a>
+          <a href="./python.html">python</a>
+          </div>
+          </div>
+
+
+          <li><a href="./s1.html"></a></li>
+      </ul>
+      </nav>
+  </header>
+   <h1>Himalayas!</h1>
+   <h2>About the mighty Himalayas which touches the blue sky.</h2>
+   <p>Mountain ranges in the Himalayas look very beautiful in summer with blue skies above it. 
+    The Himalayas stretch across the northeastern portion of India. They cover approximately 1,500 mi (2,400 km) and pass through the nations of India, Pakistan, Afghanistan, China, Bhutan and Nepal.
+   </p>
+ </body>
+</html>
+                    
